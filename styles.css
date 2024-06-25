@@ -1,0 +1,207 @@
+html {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+    color: cyan;
+}
+
+ 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ 
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+    background: #322740;
+    width: 100vw;
+    font-weight: 700;
+    position: relative;
+    right: 8px;
+    bottom: 8px;
+}
+
+.profile-pic img {
+    height: 600px;
+    width: 650px;
+    border: 15px white solid;
+    border-radius: 20%;
+    position: relative;
+    left: 30px;
+}
+
+.main-hero {
+    display: block;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    border: 5px solid #322740;
+}
+
+.hero-background {
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+#about {
+    height: 600px;
+    display: flex;
+    gap: 500px;
+    padding-left: 50px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #322740;
+}
+
+#about-text {
+    width: 600px;
+}
+
+#exp {
+    height: 600px;
+}
+
+#exp p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #322740;
+}
+
+.proj-row {
+    display: flex;
+    gap: 100px;
+    padding-bottom: 80px;
+}
+
+#proj {
+    height: 600px;
+    position: relative;
+    top: 100px;
+}
+
+#proj h3 {
+    font-weight: 700;
+}
+
+#proj img {
+    height: 400px;
+    width: 600px;
+    border: 10px white solid;
+    border-radius: 20%;
+
+}
+
+#proj a:hover {
+    transform: scale(1.01);
+}
+
+.proj-text {
+    display: block;
+    width:700px;
+}
+
+.proj-text p {
+    font-size: 1.1rem;
+    color: #322740;
+}
+
+h1 {
+    font-size: 6rem;
+    color: lime;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+h3 {
+    color: #322740;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+h4 {
+    color: limegreen;
+    font-size: 1.75rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    background: #322740;
+    position: relative;
+    right: 8px;
+    bottom: 8px;
+    width: 1810px;
+}
+
+ul {
+    position: relative;
+    right: 50px;
+    display: flex;
+    gap: 70px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+}
+
+button {
+    border-radius: 10%;
+    background-color: #322740;
+    color: lime;
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+
+}
+
+button:hover {
+    transform: scale(1.02)
+}
+
+a:hover {
+    transform: scale(1.2)
+}
+
+hr {
+    color: black;
+}
